@@ -1,0 +1,112 @@
+from Tkinter import *
+    #!/usr/bin/env python
+# coding: utf-8
+
+
+
+def run3():
+    d = Tk()
+    d.geometry('900x500')
+    d.title('GreyHat Cyber Solutions recon Tool')
+def bee():
+    white0.delete(0,END)
+def run2():
+    c = Tk()
+    c.geometry('900x500')
+    c.title('GreyHat Cyber Solutions recon Tool')
+def lee():
+    white3.delete(0,END)
+def run1(**ipaddress):
+    b = Tk()
+    b.geometry('900x500')
+    b.title('GreyHat Cyber Solutions Recon Tool')
+
+
+
+
+
+
+
+def koko():
+    white1.delete(0,END)
+root = Tk()
+from Tkinter import *
+def lala():
+    e1.delete(0,END)
+    e2.delete(0,END)
+    e3.delete(0,END)
+a = Tk()
+Label(a,text='First Name:').place(x=100,y=100)
+Label(a,text='Last name:').place(x=100,y=100)
+Label(a,text='Email Address:').place(x=100,y=100)
+e1 = Entry(a)
+e1.place(x=100,y=100)
+e1.insert(0,'Abdul kabir')
+#don't mind this part of the code its for testing
+e2 = Entry(a)
+e2.place(x=100,y=100)
+e2.insert(0,'yakubu')
+
+e3 = Entry(a)
+e3.place(x=00,y=400)
+e3.insert(0,'lee@gmail.com')
+Button(a,text='new entry',command=lala).grid(row=4,column=1)
+
+# This is where the real code begins
+root.title('GreyHat Cyber Solutions Security Recon Toolv1.0')
+root.geometry('1000x500')
+Label(root,text='Enter your Mac Address:',font=('times',20,'italic')).place(x=40,y=40)
+white1 = Entry(root,width=50,font=('times',15,'italic'))
+white1.place(x=350,y=50)
+white1.insert(0,'Example:AD:6F:7J:BE:J8')
+white22 = Button(root,text='Clear Your Mac Address',width=22,command=koko,fg='black',bg='yellow',font=('Algerian',10,'bold')).place(x=350,y=90)
+#white2 = Button(root,command=run1,text='LOCATE',fg='black',bg='yellow',font=('Algerian',10,'bold')).place(x=900,y=50)
+#white2 = Entry(root)
+#white2 = Entry(root,width=50,font=('times',15,'italic',)).place(x=350,y=17)
+Label(root,text='Enter your IP Address:',font=('times',20,'italic')).place(x=30,y=150)
+white3 = Entry(root,width=50,font=('times',15,'italic'))
+white3.place(x=350,y=160)
+white3.insert(0,'Example:192.168.111.139')
+white33=Button(root,text='Clear your IP Address',fg='black',bg='orange',font=('Algerian',10,'bold'),width=22,command = lee).place(x=350,y=200)
+white6 = Button(root,command=run2,text='LOCATE',fg='black',bg='yellow',font=('Algerian',10,'bold')).place(x=900,y=50)
+white21 = Button(root,text='LOCATE',fg='black',bg='orange',command=run3,font=('Algerian',10,'bold')).place(x=900,y=160)
+
+#white11 = Label(root,text='Enter your IP Address:',font=('times',20,'italic')).place(x=30,y=150)
+#white13 = Entry(root,width=50,font=('times',15,'italic')).place(x=350,y=160)
+Label(root,text='Enter your Email Address:',font=('times',20,'italic')).place(x=20,y=260)
+white0 = Entry(root,width=50,font=('times',15,'italic'))
+white0.place(x=350,y=270)
+white0.insert(0,'Example:PirateKing101@mail.com')
+white011=Button(root,text='Clear your Email Address',fg='black',bg='green',font=('Algerian',10,'bold'),width=22,command = bee).place(x=350,y=320)
+white6 = Button(root,command=run1,text='LOCATE',fg='black',bg='green',font=('Algerian',10,'bold')).place(x=900,y=270)
+Label(root,text='Programmed \nby \nAbdul Kabir',font=('elephant',10,'italic')).place(x=880,y=430)
+
+white21 = Button(root,text='LOCATE',fg='black',bg='orange',command=run2,font=('Algerian',10,'bold')).place(x=900,y=160)
+#white12 = Label(root,text='Enter your Email Address:',font=('times',20,'italic')).place(x=20,y=300)
+#white14 = Entry(root,width=50,font=('times',15,'italic')).place(x=350,y=310)
+#white22 = Button(root,text='LOCATE',fg='black',bg='green',font=('Algerian',10,'bold')).place(x=900,y=310)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+root.mainloop()
+
+
+
